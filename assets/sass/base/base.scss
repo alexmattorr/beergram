@@ -884,7 +884,13 @@
 
 		h3 {
 			font-size: 1em;
+			display: inline-block;
 			margin: 0 0 (_size(element-margin) * 0.25) 0;
+		}
+
+		h5 {
+			display: inline-block;
+			float: right;
 		}
 
 		p {

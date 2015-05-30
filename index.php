@@ -44,8 +44,8 @@
 												<img src="data:image;base64,'.$row['beer_image'].'" alt="'.$row['beer_name'].'" />
 											</a>
 											<h3>'.$row['beer_name'].'</h3>
-											<h4>'.$row['beer_type'].'</h4>
 											<h5>'.$row['beer_percent'].' %</h5>
+											<h4>'.$row['beer_type'].'</h4>
 											<p>'.$row['beer_desc'].'</p>
 										</article>
 									';

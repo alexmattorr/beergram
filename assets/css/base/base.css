@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$green".
-        on line 1063 of /Users/alexanderorr/Sites/_school/beergram/assets/sass/base/base.scss
+        on line 1069 of /Users/alexanderorr/Sites/_school/beergram/assets/sass/base/base.scss
 
-1058: 			position: absolute;
-1059: 			top: 0;
-1060: 			width: 50%;
-1061: 
-1062: 			&:before {
-1063: 				color: $green;
-1064: 				font-size: 2.5em;
-1065: 				height: 1em;
-1066: 				line-height: 1em;
-1067: 				margin-top: -0.75em;
-1068: 				position: absolute;
+1064: 			position: absolute;
+1065: 			top: 0;
+1066: 			width: 50%;
+1067: 
+1068: 			&:before {
+1069: 				color: $green;
+1070: 				font-size: 2.5em;
+1071: 				height: 1em;
+1072: 				line-height: 1em;
+1073: 				margin-top: -0.75em;
+1074: 				position: absolute;
 
 Backtrace:
-/Users/alexanderorr/Sites/_school/beergram/assets/sass/base/base.scss:1063
+/Users/alexanderorr/Sites/_school/beergram/assets/sass/base/base.scss:1069
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.11/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.11/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
@@ -89,4 +89,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$green\".\A         on line 1063 of /Users/alexanderorr/Sites/_school/beergram/assets/sass/base/base.scss\A \A 1058: 			position: absolute;\A 1059: 			top: 0;\A 1060: 			width: 50%;\A 1061: \A 1062: 			&:before {\A 1063: 				color: $green;\A 1064: 				font-size: 2.5em;\A 1065: 				height: 1em;\A 1066: 				line-height: 1em;\A 1067: 				margin-top: -0.75em;\A 1068: 				position: absolute;"; }
+  content: "Error: Undefined variable: \"$green\".\A         on line 1069 of /Users/alexanderorr/Sites/_school/beergram/assets/sass/base/base.scss\A \A 1064: 			position: absolute;\A 1065: 			top: 0;\A 1066: 			width: 50%;\A 1067: \A 1068: 			&:before {\A 1069: 				color: $green;\A 1070: 				font-size: 2.5em;\A 1071: 				height: 1em;\A 1072: 				line-height: 1em;\A 1073: 				margin-top: -0.75em;\A 1074: 				position: absolute;"; }
