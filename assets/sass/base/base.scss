@@ -530,7 +530,7 @@
 			display: block;
 			margin: 0 0 _size(element-margin) 0;
 			width: 100%;
-			max-height: 200px;
+			max-height: 225px;
 
 			img {
 				width: 100%;
@@ -880,6 +880,7 @@
 		margin: 0 0 _size(element-margin) 0;
 
 		.image {
+			overflow: hidden;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 		}
 
@@ -891,6 +892,7 @@
 
 		h5 {
 			display: inline-block;
+			color: $green;
 			float: right;
 		}
 
