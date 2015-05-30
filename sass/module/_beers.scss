@@ -1,0 +1,16 @@
+.beer {
+	@include col(1/3);
+	background: $white;
+	img {
+		width: 100%;
+	}
+
+	.beer-wrapper {
+		padding: 10px;
+		border: 1px solid $l-grey;
+	}
+
+	.beer-text {
+		padding-top: 25px;
+	}
+}

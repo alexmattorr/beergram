@@ -1,0 +1,59 @@
+header {
+	width: 100%;
+
+	position: fixed;
+	z-index: 100;
+
+	background: $coal;
+
+	border-bottom: 5px solid $l-coal;
+
+	-moz-box-shadow: 0 0 10px lighten($l-coal, 5%);
+	-webkit-box-shadow: 0 0 10px lighten($l-coal, 5%);
+	box-shadow: 0 0 10px lighten($l-coal, 5%);
+}
+
+.nav-wrapper {
+	max-width: $full;
+	margin: 0 auto;
+	padding: 0 25px;
+	color: $white;
+
+	h1 {
+		font-size: 1.25rem;
+		padding: 15px 0;
+		display: inline-block;
+		span { color: $blue; }
+	}
+
+	.modal-btn {
+		float: right;
+		display: inline-block;
+		padding: 15px;
+		cursor: pointer;
+	}
+}
+
+@include tablet() {
+	header {
+		position: absolute;
+		top: 0;
+	}
+}
+
+@include phone() {
+	h1,
+	.search-filter {
+		display: block;
+	}
+
+	h1 { margin-bottom: 20px; }
+
+	.search-filter {
+		display: block !important;
+		float: none !important;
+		input {
+			width: 100% !important;
+		}
+	}
+}
