@@ -15,14 +15,17 @@
 
 		$type = input($_POST['type']);
 		$percent = input($_POST['percent']);
+		$desc = input($_POST['message']);
 		
-		saveData($name, $image, $type, $percent);
+		saveData($name, $image, $type, $percent, $desc);
 	}
-	function saveData($name, $image, $type, $percent) {
+	function saveData($name, $image, $type, $percent, $desc) {
 		$con=mysql_connect("localhost", "root", "root");
 		mysql_select_db("beergram", $con);
 
-		$qry = "INSERT INTO beers (beer_name, beer_image, beer_type, beer_percent) VALUES ('$name', '$image', '$type', '$percent')";
+		$qry = "INSERT INTO beers (beer_name, beer_image, beer_type, beer_percent, beer_desc) VALUES ('$name', '$image', '$type', '$percent', '$desc')";
 		$result = mysql_query($qry, $con);
+		header("Location: index.php");
+		die();
 	}
 ?>

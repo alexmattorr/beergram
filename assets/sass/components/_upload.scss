@@ -1,0 +1,36 @@
+.fileUpload {
+	position: relative;
+  overflow: hidden;
+	width: 100%;
+	padding: 10px;
+  background: $gray;
+  text-align: center;
+  border-radius: 0.35em;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  transition-property: background, color;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+  &:hover, &.is-active {
+    color: $white;
+    background: $green;
+  }
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 4px;
+  width: 100%;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+#submit-btn {
+  margin-top: 1em;
+}
